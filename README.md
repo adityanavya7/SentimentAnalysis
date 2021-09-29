@@ -1,6 +1,6 @@
 # SentimentAnalysis
 A machine learning end to end flask web app for sentiment analysis model created using Scikit-learn &amp; VADER Sentiment. <br />
-The project uses libraries like : <br />
+The project uses technologies like : <br />
 [Flask](https://flask.palletsprojects.com/en/2.0.x/)<br />
 [Sklearn](https://pypi.org/project/scikit-learn/) <br />
 [Requests](https://docs.python-requests.org/en/latest/) <br />
@@ -26,13 +26,19 @@ There are many sources of public sentiment e.g. public interviews, opinion polls
 ## Commands to run the Application <br />
 
 ### [Git](https://git-scm.com/downloads) <br />
+
 If you already have Git installed, you can get the latest development version via Git itself: *git clone https://github.com/git/git* <br />
 
 ### [Python 3 or above](https://www.python.org/downloads/) <br />
+
 If you already have Python installed, you can check the version on command prompt by the command*$ python --version* <br />
 
 ### PIP <br />
+
 *python get-pip.py* <br />
+
+One can easily verify if the pip has been installed correctly by performing a version check on the same. Just go to the command line and execute the following command: <br />
+*pip -V*
 
 
 ### For Flask <br />
@@ -42,11 +48,28 @@ Create an environment <br />
 *> cd myproject <br />*
 *> py -3 -m venv venv* <br />
 
+Or, create a virtual environment by <br />
+*pip virtualenv*
+
 Before you work on your project, activate the corresponding environment: <br />
 *> venv\Scripts\activate* <br />
 
 Within the activated environment, use the following command to install Flask: <br />
 *$ pip install Flask*
 
+### Installing NLTK <br />
+
+NLTK requires Python versions 3.6, 3.7, 3.8, or 3.9
+*pip install nltk* <br />
+Test installation: *Start > Python38 then type import nltk*
+
+### scikit-learn <br />
+
+*pip install -U scikit-learn* <br />
+
+In order to check your installation you can use <br />
+*python -m pip show scikit-learn  # to see which version and where scikit-learn is installed
+python -m pip freeze  # to see all packages installed in the active virtualenv
+python -c "import sklearn; sklearn.show_versions()"*
 
 
