@@ -68,8 +68,8 @@ Test installation: *Start > Python38 then type import nltk*
 *pip install -U scikit-learn* <br />
 
 In order to check your installation you can use <br />
-*python -m pip show scikit-learn  # to see which version and where scikit-learn is installed
-python -m pip freeze  # to see all packages installed in the active virtualenv
-python -c "import sklearn; sklearn.show_versions()"*
+*python -m pip show scikit-learn  # to see which version and where scikit-learn is installed <br />
+python -m pip freeze  # to see all packages installed in the active virtualenv <br />
+python -c "import sklearn; sklearn.show_versions()"* <br />
 
 
