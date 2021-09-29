@@ -93,4 +93,4 @@ Then, we will run the application by the following command <br />
 
 ### templates/start.html
 
-The *start.html* is the front page that will load when the application will start to run and 
+The *start.html* is the front page that will load when the application will start to run and the shows the output of the input string.
