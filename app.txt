@@ -1,0 +1,15 @@
+VADERSentiment :
+The Python code for the rule-based sentiment analysis engine. 
+Implements the grammatical and syntactical rules described in the paper, 
+incorporating empirically derived quantifications for the impact of each 
+rule on the perceived intensity of sentiment in sentence-level text. 
+Importantly, these heuristics go beyond what would normally be captured in 
+a typical bag-of-words model. They incorporate word-order sensitive 
+relationships between terms. For example, degree modifiers 
+(also called intensifiers, booster words, or degree adverbs) 
+impact sentiment intensity by either increasing or decreasing the intensity. 
+
+The sklearn.feature_selection module implements feature selection algorithms. 
+It currently includes univariate filter 
+selection methods and the recursive feature elimination algorithm.
+
