@@ -15,6 +15,7 @@ VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-ba
 More about [VADER](https://pypi.org/project/vaderSentiment/)
 <br />
 <br />
+
 ### WHAT IS SENTIMENT ANALYSIS <br />
 Sentiment analysis, an important area in Natural Language Processing, is the process of automatically detecting affective states of text. Sentiment analysis is widely applied to voice-of-customer materials such as product reviews in online shopping websites like Amazon, movie reviews or social media. It can be just a basic task of classifying the polarity of a text as being positive/negative or it can go beyond polarity, looking at sentiment states etc. <br />
 Sentiment analysis refers to analyzing an opinion or feelings about something using data like text or images, regarding almost anything. Sentiment analysis helps companies in their decision-making process. For instance, if public sentiment towards a product is not so good, a company may try to modify the product or stop the production altogether in order to avoid any losses. <br />
@@ -22,19 +23,30 @@ Sentiment analysis refers to analyzing an opinion or feelings about something us
 There are many sources of public sentiment e.g. public interviews, opinion polls, surveys, etc. However, with more and more people joining social media platforms, websites like Facebook and Twitter can be parsed for public sentiment. <br />
 <br />
 
-##Commands to run the Application<br />
+## Commands to run the Application <br />
 
-###[Git](https://git-scm.com/downloads) <br />
+### [Git](https://git-scm.com/downloads) <br />
 If you already have Git installed, you can get the latest development version via Git itself: *git clone https://github.com/git/git* <br />
 
-###[Python 3 or above](https://www.python.org/downloads/) <br />
+### [Python 3 or above](https://www.python.org/downloads/) <br />
 If you already have Python installed, you can check the version on command prompt by the command*$ python --version* <br />
 
-###For Flask <br />
+### PIP <br />
+*python get-pip.py* <br />
+
+
+### For Flask <br />
+
 Create an environment <br />
-*> mkdir myproject <br />
-> cd myproject <br />
-> py -3 -m venv venv* <br />
+*> mkdir myproject <br />*
+*> cd myproject <br />*
+*> py -3 -m venv venv* <br />
+
+Before you work on your project, activate the corresponding environment: <br />
+*> venv\Scripts\activate* <br />
+
+Within the activated environment, use the following command to install Flask: <br />
+*$ pip install Flask*
 
 
 
