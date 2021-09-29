@@ -22,3 +22,19 @@ Sentiment analysis refers to analyzing an opinion or feelings about something us
 There are many sources of public sentiment e.g. public interviews, opinion polls, surveys, etc. However, with more and more people joining social media platforms, websites like Facebook and Twitter can be parsed for public sentiment. <br />
 <br />
 
+##Commands to run the Application<br />
+
+###[Git](https://git-scm.com/downloads) <br />
+If you already have Git installed, you can get the latest development version via Git itself: *git clone https://github.com/git/git* <br />
+
+###[Python 3 or above](https://www.python.org/downloads/) <br />
+If you already have Python installed, you can check the version on command prompt by the command*$ python --version* <br />
+
+###For Flask <br />
+Create an environment <br />
+*> mkdir myproject <br />
+> cd myproject <br />
+> py -3 -m venv venv* <br />
+
+
+
