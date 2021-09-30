@@ -155,7 +155,7 @@ The statem page looks like : <br />
 
 ***The Navigation from the about page to the tech, team and the statem page is as  follows :*** <br />
 <br />
-![](/CodeSamples/bandicam 2021-09-30 10-39-58-765.mp4) <br />
+[VIDEO](https://drive.google.com/file/d/1Y_15ra5tFvZiJUV6KEqccWwVu3r3keu7/view?usp=sharing) <br />
 
 ### static/style.css
 
