@@ -153,4 +153,14 @@ The statem page looks like : <br />
 <br />
 ![](/CodeSamples/statem.PNG)<br />
 
-### static style
+***The Navigation from the about page to the tech, team and the statem page is as  follows :*** <br />
+<br />
+![](/CodeSamples/bandicam 2021-09-30 10-39-58-765.mp4) <br />
+
+### static/style.css
+
+The *style.css* contains the styling required for the project
+
+### static/app.js
+
+The *app.js* is a react file to read data from a given dataset.
