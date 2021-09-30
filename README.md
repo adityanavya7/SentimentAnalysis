@@ -86,7 +86,8 @@ In order to check your installation you can use <br />
 
 The *app.py* is the main file with all the backend functions and all the background calculations needed in order to calculate the sentiment of a particular string <br />
 The imported libraries which are necesaary to run are <br />
-![](/CodeSamples/app2.PNG)
+![](/CodeSamples/app2.PNG) <br />
+
 In order to run the application we have to activate the virtual environment and all the above necessary libraries and files must be installed <br />
 Then, we will run the application by the following command <br />
 
@@ -94,7 +95,10 @@ Then, we will run the application by the following command <br />
 > *flask run* <br />
 
 The main parametre on which the sentiment is to get calculated is <br />
-![paramater](/CodeSamples/app1.PNG)
+![paramater](/CodeSamples/app1.PNG) <br />
+
+On running, we get something like this <br />
+![](/CodeSamples/run.PNG) <br />
 
 
 ### templates/start.html
