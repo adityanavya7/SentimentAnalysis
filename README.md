@@ -86,6 +86,7 @@ In order to check your installation you can use <br />
 
 The *app.py* is the main file with all the backend functions and all the background calculations needed in order to calculate the sentiment of a particular string <br />
 The imported libraries which are necesaary to run are <br />
+<br />
 ![](/CodeSamples/app2.PNG) <br />
 
 In order to run the application we have to activate the virtual environment and all the above necessary libraries and files must be installed <br />
@@ -95,9 +96,11 @@ Then, we will run the application by the following command <br />
 > *flask run* <br />
 
 The main parametre on which the sentiment is to get calculated is <br />
+<br />
 ![paramater](/CodeSamples/app1.PNG) <br />
 
 On running the command, we get something like this <br />
+<br />
 ![](/CodeSamples/run.PNG) <br />
 
 Here *env* specifies that the application is running in an virtual environment.
@@ -107,4 +110,13 @@ Here *env* specifies that the application is running in an virtual environment.
 
 The *start.html* is the front page that will load when the application will start to run and the shows the output of the input string.
 While running the application, the start page looks something like this <br />
+<br />
 ![](/CodeSamples/start.PNG) <br />
+
+###templates/speech.html
+
+The *speech.html* is what we get on clicking the speech tab on the nav bar. The purpose was to find the sentiment by retrieving the text from speech but unfortunately this is still under process, but we can retrieve the text from speech by this.
+
+The *speech.html* will look like this <br />
+<br />
+![](/CodeSamples/speech.PNG) <br />
