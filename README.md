@@ -97,10 +97,14 @@ Then, we will run the application by the following command <br />
 The main parametre on which the sentiment is to get calculated is <br />
 ![paramater](/CodeSamples/app1.PNG) <br />
 
-On running, we get something like this <br />
+On running the command, we get something like this <br />
 ![](/CodeSamples/run.PNG) <br />
+
+Here *env* specifies that the application is running in an virtual environment.
 
 
 ### templates/start.html
 
 The *start.html* is the front page that will load when the application will start to run and the shows the output of the input string.
+While running the application, the start page looks something like this <br />
+![](/CodeSamples/start.PNG) <br />
