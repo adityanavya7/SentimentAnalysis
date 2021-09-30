@@ -44,41 +44,41 @@ One can easily verify if the pip has been installed correctly by performing a ve
 ### For Flask <br />
 
 Create an environment <br />
-> *> mkdir myproject <br />*
-> *> cd myproject <br />*
-> *> py -3 -m venv venv* <br />
+> *mkdir myproject <br />*
+> *cd myproject <br />*
+> *py -3 -m venv venv* <br />
 
 Or, create a virtual environment by <br />
-*pip virtualenv*
+> *pip virtualenv*
 
 Before you work on your project, activate the corresponding environment: <br />
-*> venv\Scripts\activate* <br />
+> *venv\Scripts\activate* <br />
 
 Within the activated environment, use the following command to install Flask: <br />
-*$ pip install Flask*
+> *$ pip install Flask*
 
 ### Installing NLTK <br />
 
 NLTK requires Python versions 3.6, 3.7, 3.8, or 3.9
-*pip install nltk* <br />
+> *pip install nltk* <br />
 Test installation: *Start > Python38 then type import nltk*
 
 ### scikit-learn <br />
 
-*pip install -U scikit-learn* <br />
+> *pip install -U scikit-learn* <br />
 
 In order to check your installation you can use <br />
-*python -m pip show scikit-learn  # to see which version and where scikit-learn is installed <br />
-python -m pip freeze  # to see all packages installed in the active virtualenv <br />
-python -c "import sklearn; sklearn.show_versions()"* <br />
+> *python -m pip show scikit-learn  # to see which version and where scikit-learn is installed* <br />
+> *python -m pip freeze  # to see all packages installed in the active virtualenv* <br />
+> *python -c "import sklearn; sklearn.show_versions()"* <br />
 
 ### sklearn install
 
-*pip install sklearn*
+> *pip install sklearn*
 
 ### vaderSentiment 
 
-*pip install vaderSentiment*
+> *pip install vaderSentiment*
 
 ## Necessary Files
 
@@ -87,8 +87,9 @@ python -c "import sklearn; sklearn.show_versions()"* <br />
 The *app.py* is the main file with all the backend functions and all the background calculations needed in order to calculate the sentiment of a particular string <br />
 In order to run the application we have to activate the virtual environment and all the above necessary libraries and files must be installed <br />
 Then, we will run the application by the following command <br />
-*set FLASK_APP=app.py*  <br />
-*flask run* <br />
+
+> *set FLASK_APP=app.py*  <br />
+> *flask run* <br />
 
 
 ### templates/start.html
