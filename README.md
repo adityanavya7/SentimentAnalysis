@@ -169,3 +169,7 @@ The *app.js* is a react file to read data from a given dataset.
 
 [GitHub Repo](https://github.com/Prajwal10031999/Sentiment-Analysis-ML-Flask-App) For the idea and parametres for calculations<br />
 
+## *Final Output*
+
+![](/CodeSamples/bandicam 2021-09-30 10-54-10-377.mp4)
+
