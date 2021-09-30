@@ -113,10 +113,18 @@ While running the application, the start page looks something like this <br />
 <br />
 ![](/CodeSamples/start.PNG) <br />
 
-###templates/speech.html
+### templates/speech.html
 
 The *speech.html* is what we get on clicking the speech tab on the nav bar. The purpose was to find the sentiment by retrieving the text from speech but unfortunately this is still under process, but we can retrieve the text from speech by this.
 
 The *speech.html* will look like this <br />
 <br />
 ![](/CodeSamples/speech.PNG) <br />
+
+### templates/about.html
+
+The *about.html* page is the about page of this project where we display the necessary innformation, the team involved, the technologies used and the problem statement.
+
+The about page looks like : <br />
+<br />
+![](/CodeSamples/about.PNG) <br />
