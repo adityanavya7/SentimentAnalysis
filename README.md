@@ -128,3 +128,29 @@ The *about.html* page is the about page of this project where we display the nec
 The about page looks like : <br />
 <br />
 ![](/CodeSamples/about.PNG) <br />
+
+### templates/team.html
+
+The *team.html* consistes details of the group along with our mentor and alumni.
+
+The team page looks like : <br />
+<br />
+![](/CodeSamples/team.PNG)<br />
+
+### templates/tech.html
+
+The *tech.html* consistes the main technologies used along with their documentation.
+
+The tech page looks like : <br />
+<br />
+![](/CodeSamples/tech.PNG)<br />
+
+### templates/statem.html
+
+The *statem.html* consistes the problem statement.
+
+The statem page looks like : <br />
+<br />
+![](/CodeSamples/statem.PNG)<br />
+
+### static style
