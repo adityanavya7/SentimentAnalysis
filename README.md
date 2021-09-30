@@ -92,7 +92,7 @@ Then, we will run the application by the following command <br />
 > *flask run* <br />
 
 The main parametre on which the sentiment is to get calculated is <br />
-![paramater](https://drive.google.com/file/d/1gRKOzWrnKDs0E3zbd9uQIWWsKtT_W5QT/view?usp=sharing)
+![paramater](/CodeSamples/app1.PNG)
 
 
 ### templates/start.html
