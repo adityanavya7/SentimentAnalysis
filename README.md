@@ -35,18 +35,18 @@ If you already have Python installed, you can check the version on command promp
 
 ### PIP <br />
 
-*python get-pip.py* <br />
+> *python get-pip.py* <br />
 
 One can easily verify if the pip has been installed correctly by performing a version check on the same. Just go to the command line and execute the following command: <br />
-*pip -V*
+> *pip -V*
 
 
 ### For Flask <br />
 
 Create an environment <br />
-*> mkdir myproject <br />*
-*> cd myproject <br />*
-*> py -3 -m venv venv* <br />
+> *> mkdir myproject <br />*
+> *> cd myproject <br />*
+> *> py -3 -m venv venv* <br />
 
 Or, create a virtual environment by <br />
 *pip virtualenv*
